@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <RecipeTile msg="Welcome to the recipe list!"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import RecipeTile from './components/RecipeTile.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    RecipeTile
   }
 }
 </script>
